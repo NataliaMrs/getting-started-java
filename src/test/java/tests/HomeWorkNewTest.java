@@ -16,6 +16,8 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class HomeWorkNewTest {
 
+    //for commits
+
     @BeforeAll
     static void beforeAll() {
         Configuration.browserSize = "1920x1080";
