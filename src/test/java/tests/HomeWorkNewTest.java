@@ -15,6 +15,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class HomeWorkNewTest {
+   //new
 
     @BeforeAll
     static void beforeAll() {
