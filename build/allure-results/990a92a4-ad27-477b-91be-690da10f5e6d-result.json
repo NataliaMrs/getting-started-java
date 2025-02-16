@@ -1,0 +1,55 @@
+{
+  "uuid": "990a92a4-ad27-477b-91be-690da10f5e6d",
+  "historyId": "89d9066bd6bbbd2deffcd052c05ec27e",
+  "testCaseId": "[engine:junit-jupiter]/[class:tests.HomeWorkNineFileTest]/[method:zipFileParsingCsvTest()]",
+  "testCaseName": "zipFileParsingCsvTest()",
+  "fullName": "tests.HomeWorkNineFileTest.zipFileParsingCsvTest",
+  "labels": [
+    {
+      "name": "junit.platform.uniqueid",
+      "value": "[engine:junit-jupiter]/[class:tests.HomeWorkNineFileTest]/[method:zipFileParsingCsvTest()]"
+    },
+    {
+      "name": "host",
+      "value": "NB-ISC-14733"
+    },
+    {
+      "name": "thread",
+      "value": "8589@NB-ISC-14733.Test worker(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit-platform"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "package",
+      "value": "tests.HomeWorkNineFileTest"
+    },
+    {
+      "name": "testClass",
+      "value": "tests.HomeWorkNineFileTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "zipFileParsingCsvTest"
+    },
+    {
+      "name": "suite",
+      "value": "tests.HomeWorkNineFileTest"
+    }
+  ],
+  "links": [],
+  "name": "zipFileParsingCsvTest()",
+  "status": "passed",
+  "stage": "finished",
+  "description": "",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1737900482156,
+  "stop": 1737900482208
+}
