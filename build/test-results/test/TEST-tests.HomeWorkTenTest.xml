@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.HomeWorkTenTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-12T18:50:36" hostname="NB-ISC-14733" time="11.487">
+  <properties/>
+  <testcase name="searchIssuesTest()" classname="tests.HomeWorkTenTest" time="11.487"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+апр. 12, 2025 9:50:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide 7.7.1 / Selenium 4.28.0 / chrome 135.0.7049.85 mac
+]]></system-err>
+</testsuite>
