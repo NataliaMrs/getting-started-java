@@ -1,6 +1,8 @@
-name: Test
+name: Test CI
 
-on: workflow_dispatch
+on: [ push ]
+
+workflow_dispatch:
 
 jobs:
   test:
@@ -14,11 +16,11 @@ jobs:
       - uses: actions/setup-java@v3
         with:
           distribution: 'zulu'
-          java-version: '17'
-      - uses: Xotabu4/selenoid-github-action@v2
+          java-version: '17 '
+      #- uses: Xotabu4/selenoid-github-action@v2
       # запускаем тесты
-      - run: ./gradlew clean test -Dselenide.remote=http://localhost:4444/wd/hub
-      # скачиваем историю тестов
+      - run: ./gradlew clean test #-Dselenide.remote=http://localhost:4444/wd/hub
+      # скачиваем историю тестовв
       - uses: actions/checkout@v2
         if: always()
         continue-on-error: true
