@@ -82,6 +82,6 @@ jobs:
       - uses: peaceiris/actions-gh-pages@v2
         if: always()
         env:
-          PERSONAL_TOKEN: ${{ secrets.Nata }}
+          PERSONAL_TOKEN: ${{ secrets.SERVICE_ACCOUNT_KEY }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
