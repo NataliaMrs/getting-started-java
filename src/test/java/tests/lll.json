@@ -1,0 +1,126 @@
+{
+  "store": {
+    "id": 271881,
+    "location": {
+      "address": "Вокзальная, 23",
+      "lat": 57.80407,
+      "lon": 28.36153
+    },
+    "retailer": {
+      "distance_learning": false,
+      "id": 22876,
+      "mini_logo": "https://kuper.ru/statics/retailer_banners/22749/mini_logo_images/black-text-logo-32-32-3x3x.png?1719923665",
+      "name": "Baggins Coffee"
+    },
+    "type": "training_center"
+  }
+}
+
+
+{
+  "stores": [
+    {
+      "id": 272208,
+      "location": {
+        "address": "г. Балашиха, ул. Свердлова, д. 30, 30",
+        "lat": 55.827354,
+        "lon": 37.97355
+      },
+      "retailer": {
+        "distance_learning": false,
+        "id": 196,
+        "mini_logo": "https://kuper.ru/statics/retailer_banners/183/mini_logo_images/lubimchik.png?1717607276",
+        "name": "ЛЮБИМЧИК"
+      },
+      "type": "training_center"
+    },
+    {
+      "id": 271928,
+      "location": {
+        "address": "Комсомольская площадь",
+        "lat": 55.774837,
+        "lon": 37.654373
+      },
+      "retailer": {
+        "distance_learning": false,
+        "id": 196,
+        "mini_logo": "https://kuper.ru/statics/retailer_banners/183/mini_logo_images/lubimchik.png?1717607276",
+        "name": "ЛЮБИМЧИК"
+      },
+      "type": "training_center"
+    }
+  ]
+}
+
+
+
+
+{
+  "stores": [
+    {
+      "id": 275607,
+      "location": {
+        "address": "пл. Комсомольская, 3",
+        "lat": 55.77613,
+        "lon": 37.655357
+      },
+      "retailer": {
+        "distance_learning": false,
+        "id": 98,
+        "mini_logo": "",
+        "name": "R4877"
+      },
+      "type": "training_center"
+    },
+    {
+      "id": 272208,
+      "location": {
+        "address": "г. Балашиха, ул. Свердлова, д. 30, 30",
+        "lat": 55.827354,
+        "lon": 37.97355
+      },
+      "retailer": {
+        "distance_learning": false,
+        "id": 196,
+        "mini_logo": "https://kuper.ru/statics/retailer_banners/183/mini_logo_images/lubimchik.png?1717607276",
+        "name": "ЛЮБИМЧИК"
+      },
+      "type": "training_center"
+    },
+    {
+      "id": 271928,
+      "location": {
+        "address": "Комсомольская площадь",
+        "lat": 55.774837,
+        "lon": 37.654373
+      },
+      "retailer": {
+        "distance_learning": false,
+        "id": 196,
+        "mini_logo": "https://kuper.ru/statics/retailer_banners/183/mini_logo_images/lubimchik.png?1717607276",
+        "name": "ЛЮБИМЧИК"
+      },
+      "type": "training_center"
+    }
+  ]
+}
+
+
+
+{
+  "store": {
+    "id": 271874,
+    "location": {
+      "address": "улица Иванова, 13а",
+      "lat": 53.789974,
+      "lon": 91.34112
+    },
+    "retailer": {
+      "distance_learning": false,
+      "id": 81,
+      "mini_logo": "https://kuper.ru/statics/retailer_banners/71/mini_logo_images/5lb.png?1717607270",
+      "name": "5LB СПОРТИВНОЕ ПИТАНИЕ И ВИТАМИНЫ"
+    },
+    "type": "training_center"
+  }
+}
