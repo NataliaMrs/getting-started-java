@@ -13,6 +13,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.$$;
 
 @Tag("demoqa_n")
+
 public class HomeWorkThree {
 
     @BeforeAll
@@ -21,6 +22,7 @@ public class HomeWorkThree {
         Configuration.baseUrl = "https://github.com";
         Configuration.pageLoadStrategy = "eager";
         Configuration.holdBrowserOpen = true;
+        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
 
     }
 
