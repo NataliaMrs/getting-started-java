@@ -30,7 +30,8 @@ public class HomeWorkThree {
         Configuration.baseUrl = "https://github.com";
         Configuration.pageLoadStrategy = "eager";
         Configuration.holdBrowserOpen = true;
-        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
+        //Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
+        Configuration.remote = System.getProperty("remote");
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
@@ -49,6 +50,8 @@ public class HomeWorkThree {
         Attach.pageSource();
         Attach.browserConsoleLogs();
         Attach.addVideo();
+
+        closeWebDriver();
 
     }
 
