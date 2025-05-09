@@ -29,7 +29,7 @@ public class HomeWorkThree {
         Configuration.browserSize = "1920x1080";
         Configuration.baseUrl = "https://github.com";
         Configuration.pageLoadStrategy = "eager";
-        //Configuration.holdBrowserOpen = true;
+        Configuration.holdBrowserOpen = true;
         //Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
 //        String remote = System.getProperty("remotee","123");
 //        Configuration.remote = remote;
