@@ -31,8 +31,9 @@ public class HomeWorkThree {
         Configuration.pageLoadStrategy = "eager";
         Configuration.holdBrowserOpen = true;
         //Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
-        String remote = System.getProperty("remotee","123");
-        Configuration.remote = remote;
+//        String remote = System.getProperty("remotee","123");
+//        Configuration.remote = remote;
+        Configuration.remote = System.getProperty("remoteUrl");
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
