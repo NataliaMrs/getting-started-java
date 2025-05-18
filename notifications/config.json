@@ -1,0 +1,27 @@
+{
+  "base": {
+    "logo": "",
+    "project": "best project",
+    "environment": "some env",
+    "comment": "some comment",
+    "reportLink": "https://jenkins.autotests.cloud/job/qa_guru_simple_n_test/",
+    "language": "en",
+    "allureFolder": "allure-report",
+    "enableChart": true,
+    "enableSuitesPublishing": false,
+    "customData": {}
+  },
+  "telegram": {
+    "token": "7966132439:AAGw-AtfjhzzT3a8F8y-fAX_kOKgxT0kFoU",
+    "chat": "-1002593735104",
+    "topic": "",
+    "replyTo": "",
+    "templatePath": "/templates/telegram.ftl"
+  },
+  "mattermost": {
+    "url": "",
+    "token": "",
+    "chat": "",
+    "templatePath": "/templates/markdown.ftl"
+  }
+}

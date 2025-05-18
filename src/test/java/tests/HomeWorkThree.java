@@ -30,7 +30,7 @@ public class HomeWorkThree {
         Configuration.baseUrl = "https://github.com";
         Configuration.pageLoadStrategy = "eager";
         Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserVersion = System.getProperty("version", "136");
+        Configuration.browserVersion = System.getProperty("version", "127");
         Configuration.holdBrowserOpen = true;
         //Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
         Configuration.remote = System.getProperty("remoteUrl");
