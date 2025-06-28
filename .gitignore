@@ -1,7 +1,9 @@
 HELP.md
 build/
+build/reports/tests
 !**/src/main/**
 !**/src/test/**
+!**/notifications/**
 
 ### IntelliJ IDEA ###
 .idea
