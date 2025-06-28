@@ -13,7 +13,7 @@
   },
   "telegram": {
     "token": "7966132439:AAGw-AtfjhzzT3a8F8y-fAX_kOKgxT0kFoU",
-    "chat": "-1002593735104",
+    "chat": "403123981",
     "topic": "",
     "replyTo": "",
     "templatePath": "/templates/telegram.ftl"
